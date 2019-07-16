@@ -2,11 +2,13 @@ import React from "react";
 import Contadores from "./Components/Contadores";
 import { Container } from "reactstrap";
 import Artistas from "./Components/Artistas";
+import Forms from "./Components/Forms";
 function App() {
   return (
     <div>
       <Container className="mt-4">
-        <Artistas />
+      <Forms></Forms>
+        {/* <Artistas />*/}
       </Container>
       <div
         className="container col-md-8 mt-6"
