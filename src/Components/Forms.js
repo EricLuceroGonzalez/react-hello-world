@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
+import Axios from "axios";
 
 class Forms extends Component {
   // To catch the form data:
@@ -12,6 +13,13 @@ class Forms extends Component {
   sendFormData = () => {
     console.log(this.state);
     // Send it with axios
+    Axios.post("https://devf-musica.herokuapp.com/api/v1/artista", this.state)
+      .then(res => {
+        console.log(res.data);
+      })
+      .catch(err => {
+        console.log(err.data);
+      });
   };
 
   //   To excecute onChange every input
