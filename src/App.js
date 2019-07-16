@@ -1,7 +1,7 @@
 import React from "react";
 import Contadores from "./Components/Contadores";
 import { Container } from "reactstrap";
-import Artistas from "./Components/Artistas";
+// import Artistas from "./Components/Artistas";
 import Forms from "./Components/Forms";
 function App() {
   return (
