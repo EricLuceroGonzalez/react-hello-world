@@ -4,7 +4,6 @@ import Axios from "axios";
 
 class Forms extends Component {
   // To catch the form data:
-
   state = {
     email: "",
     password: ""

@@ -54,7 +54,7 @@ class Contador extends Component {
 
   render() {
     return (
-      <div
+      <divthis.
         className="container col-md-12 col-12"
         style={{
           background: "rgba(205,42,241,0.6)",
